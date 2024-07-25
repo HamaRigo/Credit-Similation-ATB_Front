@@ -1,0 +1,51 @@
+/* AddCompte.css */
+
+.add-compte-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-compte-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-compte-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-compte-container form div {
+    margin-bottom: 15px;
+}
+
+.add-compte-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.add-compte-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-compte-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-compte-container button:hover {
+    background-color: #0056b3;
+}
